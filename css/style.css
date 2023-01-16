@@ -1,0 +1,142 @@
+/* reset alle waardes zodat er niks raar is */
+body, p, h1, image, a, h2, h3, h4
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* zij scol uit */
+body
+{
+    overflow-x: hidden;
+}
+
+/* waardus voor de dark modus */
+.dark-mode
+{
+    background-color: #696969;
+}
+
+/* website logo */
+body header a img
+{
+    height: 150px;
+    width: 150px;
+}
+
+/* heauder positie en waardus */
+header
+{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+    height: 150px;
+}
+
+/* link opmaak in header */
+header a
+{
+    text-decoration: none;
+    color: black;
+    margin-right: 100px;
+}
+
+/* nav opmaak */
+.nav
+{
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* contact knop opmaak */
+#contact
+{
+    background-color: rgba(0, 223, 223, 1);
+    padding: 25px;
+    border-radius: 50%;
+}
+
+/* main content positie */
+main
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* text opmaak */
+.text
+{
+    font-family: 'Inter', sans-serif;
+}
+
+/* extra opmaak van de Naam */
+.text h1
+{
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+/* extra text opmaak */
+.text h2
+{
+    font-size: 80px;
+    margin: 0px;
+    color: rgba(10, 158, 241, 1);
+}
+
+/* foto opmaak */
+#ikzelf
+{
+    width: 500px;
+}
+
+footer
+{
+    background-color: rgba(0, 214, 243, 1);
+    width: 100vw;
+    height: 150px;
+    
+}
+
+.footer-text
+{
+    display: inline-block;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-text h3
+{
+    font-size: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.footer-text p
+{
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.socials
+{
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    width: 200px;
+}
+
+#socials-icons
+{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+#socials-icons-git
+{
+    width: 65px;
+    height: 65px;
+    margin-left: 10px;
+}

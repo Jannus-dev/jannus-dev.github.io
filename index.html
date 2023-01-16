@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jannus - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.svg"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+</head>
+<body>
+    <header>
+       <a href="index.html"><img src="img/logo.svg" alt="Logo"></a>
+       <a href="index.html" class="nav">Home</a>
+       <a href="over-mij.html" class="nav">Over Mij</a>
+       <a href="mijn-werk.html" class="nav">Mijn werk</a>
+       <a href="contact.html" class="nav" id="contact">Contact</a>
+       <a href="#" onclick="myFunction()" class="nav">☀️</a>
+    </header>
+ 
+    <main>
+        <section class="text">
+            <h1>Hey, Ik ben</h1>
+            <h2>Jan Honing</h2>
+            <p>17 jarige jongen.</p>
+            <p>Student Software Developer op ROC-Nijmegen.</p>
+            <p>Enthousiast en bijna altijd vrolijk.</p>
+        </section>
+        <img id="ikzelf" src="img/ik.png" alt="een foto van mij">
+    </main>
+
+    <footer>
+        <section class="footer-text">
+            <h3>Jan Honing</h3>
+            <p>Deze website is gemaakt door Jan Honing <br>
+                ©Jannus
+            </p>
+        </section>
+        <section class="socials">
+            <a href="#"><img src="img/icons/pinterest-black.png" id="socials-icons" alt="Pintrest"></a>
+            <a href="#"><img src="img/icons/twitter-black.png" id="socials-icons" alt="Twitter"></a>
+            <a href="#"><img src="img/icons/github-black.png" id="socials-icons-git" alt="Git"></a>
+            <a href="#"><img src="img/icons/linkedin-black.png" id="socials-icons" alt="Linkedin"></a>
+        </section>
+    </footer>
+    
+</body>
+</html>
