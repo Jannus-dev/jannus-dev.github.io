@@ -57,9 +57,9 @@ header a
     justify-content: space-around;
 }
 
-.bij-paginas
+.home-pagina .text p
 {
-
+  text-align: unset;
 }
 
 .bij-paginas .text h2
