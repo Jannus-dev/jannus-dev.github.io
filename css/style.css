@@ -59,16 +59,15 @@ header a
 
 .bij-paginas
 {
-  display: flex;
-  flex-direction: column;
+
 }
 
-.bij-paginas h2, p
+.bij-paginas .text h2
 {
   text-align: center;
 }
 
-.bij-paginas p
+.bij-paginas .text p
 {
   text-align: unset;
   margin-left: 30px;
