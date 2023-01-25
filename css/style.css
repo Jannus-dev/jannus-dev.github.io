@@ -144,12 +144,18 @@ header a
 .box
 {
   background-color: rgba(10, 158, 241, 1);
-  height: 200px;
-  width: 300px;
+  height: auto;
+  min-height: 150px;
+  width: 250px;
   border-radius: 25%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 50px;
+  text-align: center;
 }
 
 footer
