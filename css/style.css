@@ -158,6 +158,21 @@ header a
   text-align: center;
 }
 
+.boximg
+{
+  display: flex;
+}
+
+#htmlimg
+{
+  height: 100px;
+}
+
+#gitimg
+{
+  height: 100px;
+}
+
 footer
 {
     background-color: rgba(0, 214, 243, 1);
