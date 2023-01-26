@@ -45,6 +45,12 @@ header a
     font-family: 'Inter', sans-serif;
 }
 
+#select
+{
+  text-decoration: underline;
+  text-decoration-color: rgb(20 197 240 / 34%);
+}
+
 /* contact knop opmaak */
 #contact
 {
