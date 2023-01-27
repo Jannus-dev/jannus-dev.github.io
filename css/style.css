@@ -179,6 +179,19 @@ header a
   height: 100px;
 }
 
+.box-contact
+{
+  font-size: 75px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#contacten
+{
+  text-decoration: none;
+  color: black;
+}
+
 footer
 {
     background-color: rgba(0, 214, 243, 1);
