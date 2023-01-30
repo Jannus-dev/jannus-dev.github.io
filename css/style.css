@@ -1,154 +1,147 @@
 /* reset alle waardes zodat er niks raar is */
-body, p, h1, image, a, h2, h3, h4
-{
-    margin: 0px;
-    padding: 0px;
+body,
+p,
+h1,
+image,
+a,
+h2,
+h3,
+h4 {
+  margin: 0px;
+  padding: 0px;
 }
 
 /* zij scol uit */
-body
-{
-    overflow-x: hidden;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+body {
+  overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* website logo */
-body header a img
-{
-    height: 150px;
-    width: 150px;
+body header a img {
+  height: 150px;
+  width: 150px;
 }
 
 /* heauder positie en waardus */
-header
-{
-    display: flex;
-	justify-content: space-between;
-	align-items: center;
-    height: 150px;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
 }
 
 /* link opmaak in header */
-header a
-{
-    text-decoration: none;
-    color: black;
-    margin-right: 100px;
+header a {
+  text-decoration: none;
+  color: black;
+  margin-right: 100px;
 }
 
 /* nav opmaak */
-.nav
-{
-    font-size: 25px;
-    font-family: 'Inter', sans-serif;
+.nav {
+  font-size: 25px;
+  font-family: "Inter", sans-serif;
 }
 
-#select
-{
+.desktop{
+  display: block;
+}
+
+.phone{
+  display: none;
+}
+
+#select {
   text-decoration: underline;
   text-decoration-color: rgb(20 197 240 / 34%);
 }
 
 /* contact knop opmaak */
-#contact
-{
-    background-color: rgba(0, 223, 223, 1);
-    padding: 25px;
-    border-radius: 50%;
+#contact {
+  background-color: rgba(0, 223, 223, 1);
+  padding: 25px;
+  border-radius: 50%;
 }
 
 /* home content positie */
-.home-pagina
-{
-    display: flex;
-    justify-content: space-around;
-}
-
-.bij-paginas
-{
+.home-pagina {
   display: flex;
   justify-content: space-around;
 }
 
-.bij-paginas .text
-{
+.bij-paginas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bij-paginas .text {
   margin-left: 50px;
 }
 
-.home-pagina .text p
-{
+.home-pagina .text p {
   text-align: left;
 }
 
-.bij-paginas .text h2
-{
+.bij-paginas .text h2 {
   text-align: center;
 }
 
-.bij-paginas .text p
-{
+.bij-paginas .text p {
   text-align: unset;
   margin-bottom: 10px;
 }
 
-.bij-paginas .text h3
-{
+.bij-paginas .text h3 {
   text-decoration: underline;
   color: goldenrod;
 }
 
 /* text opmaak */
-.text
-{
-    font-family: 'Inter', sans-serif;
+.text {
+  font-family: "Inter", sans-serif;
 }
 
 /* extra opmaak van de Naam */
-.text h1
-{
-    font-size: 35px;
-    margin-left: 10px;
-    margin-top: 50px;
-    /* -webkit-animation: tracking-in-contract-bck-top 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-contract-bck-top 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both; */
-}
+.text h1 {
+  font-size: 35px;
+  margin-left: 10px;
+  margin-top: 50px;
+ }
 
 /* extra text opmaak */
-.text h2
-{
-    font-size: 80px;
-    margin: 0px;
-    color: rgba(10, 158, 241, 1);
-    -webkit-animation: tracking-in-contract-bck-top 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-contract-bck-top 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+.text h2 {
+  font-size: 80px;
+  margin: 0px;
+  color: rgba(10, 158, 241, 1);
+  -webkit-animation: tracking-in-contract-bck-top 2s
+    cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract-bck-top 2s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
 }
 
 /* foto opmaak */
-#ikzelf
-{
-    width: 500px;
+#ikzelf {
+  width: 500px;
 }
 
-#ikenpluto
-{
+#ikenpluto {
   width: 300px;
   margin-bottom: 10px;
   margin-right: 30px;
   margin-left: 30px;
 }
 
-.mijn-werk
-{
+.mijn-werk {
   margin-top: 20px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.box
-{
+.box {
   background-color: rgba(10, 158, 241, 1);
   height: auto;
   min-height: 150px;
@@ -164,169 +157,309 @@ header a
   text-align: center;
 }
 
-.boximg
-{
+.boximg {
   display: flex;
 }
 
-#htmlimg
-{
+#htmlimg {
   height: 100px;
 }
 
-#gitimg
-{
+#gitimg {
   height: 100px;
 }
 
-.box-contact
-{
+.box-contact {
   font-size: 75px;
 }
 
-#contacten
-{
+#contacten {
   text-decoration: none;
   color: black;
 }
 
-footer
-{
-    background-color: rgba(0, 214, 243, 1);
-    width: 100%;
-    height: 150px;
-    margin-top: auto;
+footer {
+  background-color: rgba(0, 214, 243, 1);
+  width: 100%;
+  height: 150px;
+  margin-top: auto;
 }
 
-.footer-text
-{
-    display: inline-block;
+.footer-text {
+  display: inline-block;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.footer-text h3 {
+  font-size: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.footer-text p {
+  font-size: 10px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+.socials {
+  display: inline-block;
+  float: right;
+  margin-top: 10px;
+  width: 200px;
+}
+
+#socials-icons {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+}
+#socials-icons-git {
+  width: 65px;
+  height: 65px;
+  margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px){
+  header {
+    height: auto;
+  }
+
+  .text h1 {
+    font-size: 35px;
+    margin-left: 10px;
+    margin-top: 10px;
+   }
+
+  .desktop{
+    display: none;
+  }
+
+  .phone{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+  }
+
+  .phone a img{
+    width: 50px;
+    height: 50px;
+  }
+
+  .home-pagina .text h2 {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .home-pagina .text p {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .home-pagina {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bij-paginas {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #ikzelf {
+    width: 400px;
+  }
+
+  .dropbtn {
+    background-color: rgba(10, 158, 241, 1);
     color: white;
-    font-family: 'Inter', sans-serif;
-}
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-right: 3px;
+  }
 
-.footer-text h3
-{
-    font-size: 40px;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-
-.footer-text p
-{
-    font-size: 10px;
-    margin-left: 10px;
-    margin-top: 50px;
-}
-
-.socials
-{
+  .home-pagina {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
     display: inline-block;
-    float: right;
-    margin-top: 10px;
-    width: 200px;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0px;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: rgba(10, 158, 241, 1);
+  }
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }
 
-#socials-icons
-{
-    width: 60px;
-    height: 60px;
-    margin-left: 10px;
-}
-#socials-icons-git
-{
-    width: 65px;
-    height: 65px;
-    margin-left: 10px;
+footer{
+  display: flex;
 }
 
+.socials {
+  display: inline-block;
+  margin-left: 8%;
+  margin-top: 10px;
+  width: 150px;
+}
+
+#socials-icons {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+}
+#socials-icons-git {
+  width: 55px;
+  height: 55px;
+  margin-left: 5px;
+}
+
+.footer-text p {
+  font-size: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-bottom: 0px;
+}
+}
 
 
+/* animatie */
 @-webkit-keyframes tracking-in-contract-bck-top {
-    0% {
-      letter-spacing: 1em;
-      -webkit-transform: translateZ(400px) translateY(-300px);
-              transform: translateZ(400px) translateY(-300px);
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      -webkit-transform: translateZ(0) translateY(0);
-              transform: translateZ(0) translateY(0);
-      opacity: 1;
-    }
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(-300px);
+    transform: translateZ(400px) translateY(-300px);
+    opacity: 0;
   }
-  @keyframes tracking-in-contract-bck-top {
-    0% {
-      letter-spacing: 1em;
-      -webkit-transform: translateZ(400px) translateY(-300px);
-              transform: translateZ(400px) translateY(-300px);
-      opacity: 0;
-    }
-    40% {
-      opacity: 0.6;
-    }
-    100% {
-      -webkit-transform: translateZ(0) translateY(0);
-              transform: translateZ(0) translateY(0);
-      opacity: 1;
-    }
+  40% {
+    opacity: 0.6;
   }
-  
-  @-webkit-keyframes slide-in-elliptic-top-fwd {
-    0% {
-      -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
-              transform: translateY(-600px) rotateX(-30deg) scale(0);
-      -webkit-transform-origin: 50% 100%;
-              transform-origin: 50% 100%;
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateY(0) rotateX(0) scale(1);
-              transform: translateY(0) rotateX(0) scale(1);
-      -webkit-transform-origin: 50% 1400px;
-              transform-origin: 50% 1400px;
-      opacity: 1;
-    }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
   }
-  @keyframes slide-in-elliptic-top-fwd {
-    0% {
-      -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
-              transform: translateY(-600px) rotateX(-30deg) scale(0);
-      -webkit-transform-origin: 50% 100%;
-              transform-origin: 50% 100%;
-      opacity: 0;
-    }
-    100% {
-      -webkit-transform: translateY(0) rotateX(0) scale(1);
-              transform: translateY(0) rotateX(0) scale(1);
-      -webkit-transform-origin: 50% 1400px;
-              transform-origin: 50% 1400px;
-      opacity: 1;
-    }
+}
+@keyframes tracking-in-contract-bck-top {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(-300px);
+    transform: translateZ(400px) translateY(-300px);
+    opacity: 0;
   }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
 
-  .gradient-text{
-    background: linear-gradient(to right, crimson,orange,yellow,green,blue,purple);
-    animation: rainbow 2s ease-in-out infinite;
-    -webkit-background-clip:text;
-    background-clip: text;
-    color:rgba(0,0,0,1);
-    transition: color .2s ease-in-out;
+@-webkit-keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+    transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    opacity: 0;
   }
-  .gradient-text:hover{
-    color:rgba(0,0,0,0);
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+    transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+    transform-origin: 50% 1400px;
+    opacity: 1;
   }
-  @keyframes rainbow { 
-    0%{background-position:left}
-    50%{background-position:right}
-    100%{background-position:left}
+}
+@keyframes slide-in-elliptic-top-fwd {
+  0% {
+    -webkit-transform: translateY(-600px) rotateX(-30deg) scale(0);
+    transform: translateY(-600px) rotateX(-30deg) scale(0);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+    opacity: 0;
   }
-  
-  @media only screen and (max-width: 600px) {
-    nav {
-      display: none;
-    }
+  100% {
+    -webkit-transform: translateY(0) rotateX(0) scale(1);
+    transform: translateY(0) rotateX(0) scale(1);
+    -webkit-transform-origin: 50% 1400px;
+    transform-origin: 50% 1400px;
+    opacity: 1;
   }
+}
+
+.gradient-text {
+  background: linear-gradient(
+    to right,
+    crimson,
+    orange,
+    yellow,
+    green,
+    blue,
+    purple
+  );
+  animation: rainbow 2s ease-in-out infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: rgba(0, 0, 0, 1);
+  transition: color 0.2s ease-in-out;
+}
+.gradient-text:hover {
+  color: rgba(0, 0, 0, 0);
+}
+@keyframes rainbow {
+  0% {
+    background-position: left;
+  }
+  50% {
+    background-position: right;
+  }
+  100% {
+    background-position: left;
+  }
+}

@@ -1,52 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1" />
     <title>Jannus-Dev - Home</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/logo.svg"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="img/logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
     <header>
-       <a href="index.html"><img src="img/logo.svg" alt="Logo"></a>
-       <a href="index.html" class="nav" id="select">Home</a>
-       <a href="over-mij.html" class="nav">Over Mij</a>
-       <a href="mijn-werk.html" class="nav">Mijn werk</a>
-       <a href="contact.html" class="nav" id="contact">Contact</a>
+      <nav class="desktop">
+        <a href="index.html"><img src="img/logo.svg" alt="Logo" /></a>
+        <a href="index.html" class="nav">Home</a>
+        <a href="over-mij.html" class="nav">Over Mij</a>
+        <a href="mijn-werk.html" class="nav">Mijn werk</a>
+        <a href="contact.html" class="nav" id="contact">Contact</a>
+      </nav>
+      <nav class="phone">
+        <a href="index.html"><img src="img/logo.svg" alt="Logo" /></a>
+        <div class="dropdown">
+          <p class="dropbtn">
+            <span class="material-symbols-outlined"> menu </span>
+          </p>
+          <div class="dropdown-content">
+            <a href="index.html" class="nav">Home</a>
+            <a href="over-mij.html" class="nav">Over Mij</a>
+            <a href="mijn-werk.html" class="nav">Mijn werk</a>
+            <a href="contact.html" class="nav">Contact</a>
+          </div>
+        </div>
+      </nav>
     </header>
- 
+
     <main>
-        <section class="home-pagina">
-            <section class="text">
-                <h1>Hey, Ik ben</h1>
-                <h2>Jan Honing</h2>
-                <p>17 jarige jongen.</p>
-                <p>Student Software Developer op ROC-Nijmegen.</p>
-                <p>Enthousiast en bijna altijd vrolijk.</p>
-            </section>
-            <img id="ikzelf" src="img/ik.png" alt="een foto van mij">
-    </section>
+      <section class="home-pagina">
+        <section class="text">
+          <h1>Hey, Ik ben</h1>
+          <h2>Jan Honing</h2>
+          <p>17 jarige jongen.</p>
+          <p>Student Software Developer op ROC-Nijmegen.</p>
+          <p>Enthousiast en bijna altijd vrolijk.</p>
+        </section>
+        <img id="ikzelf" src="img/ik.png" alt="een foto van mij" />
+      </section>
     </main>
 
     <footer>
-        <section class="footer-text">
-            <h3>Jan Honing</h3>
-            <p>Deze website is gemaakt door Jan Honing <br>
-                ©Jannus
-            </p>
-        </section>
-        <section class="socials">
-            <a href="https://nl.pinterest.com/JannusDev/" target="_blank"><img src="img/icons/pinterest-black.png" id="socials-icons" alt="Pintrest"></a>
-            <a href="https://twitter.com/Jannus10753299" target="_blank"><img src="img/icons/twitter-black.png" id="socials-icons" alt="Twitter"></a>
-            <a href="https://github.com/Jannus-dev" target="_blank"><img src="img/icons/github-black.png" id="socials-icons-git" alt="Git"></a>
-            <a href="https://www.linkedin.com/in/jan-honing-49058224b/" target="_blank"><img src="img/icons/linkedin-black.png" id="socials-icons" alt="Linkedin"></a>
-        </section>
+      <section class="footer-text">
+        <h3>Jan Honing</h3>
+        <p>
+          Deze website is gemaakt door Jan Honing <br />
+          ©Jannus
+        </p>
+      </section>
+      <section class="socials">
+        <a href="https://nl.pinterest.com/JannusDev/" target="_blank"
+          ><img
+            src="img/icons/pinterest-black.png"
+            id="socials-icons"
+            alt="Pintrest"
+        /></a>
+        <a href="https://twitter.com/Jannus10753299" target="_blank"
+          ><img
+            src="img/icons/twitter-black.png"
+            id="socials-icons"
+            alt="Twitter"
+        /></a>
+        <a href="https://github.com/Jannus-dev" target="_blank"
+          ><img
+            src="img/icons/github-black.png"
+            id="socials-icons-git"
+            alt="Git"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/jan-honing-49058224b/"
+          target="_blank"
+          ><img
+            src="img/icons/linkedin-black.png"
+            id="socials-icons"
+            alt="Linkedin"
+        /></a>
+      </section>
     </footer>
-    
-</body>
+  </body>
 </html>
