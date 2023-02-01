@@ -37,7 +37,7 @@ header {
 header a {
   text-decoration: none;
   color: black;
-  margin-right: 100px;
+  margin-right: 12vw;
 }
 
 /* nav opmaak */
@@ -47,7 +47,8 @@ header a {
 }
 
 .desktop{
-  display: block;
+  display: flex;
+  align-items: center;
 }
 
 .phone{
