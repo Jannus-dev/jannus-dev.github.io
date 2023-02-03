@@ -162,6 +162,11 @@ header a {
   display: flex;
 }
 
+#contact-img
+{
+  height: 100px;
+}
+
 #htmlimg {
   height: 100px;
 }
